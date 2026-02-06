@@ -100,11 +100,15 @@
           </div>
           <div class="contact-form-field">
             <label>Country / Region</label>
-            <a-input
+            <a-select
               v-model:value="form.country"
-              placeholder="Enter your country"
+              show-search
+              placeholder="Select country"
               size="large"
-            />
+              style="width: 100%"
+            >
+              <a-select-option v-for="item in countryList" :key="item[0]" :value="item[0]">{{ item[0] }}</a-select-option>
+            </a-select>
           </div>
         </div>
       </div>
@@ -394,6 +398,7 @@
 
 <script setup>
 import { ref } from "vue";
+import { countryList } from "@/constant/index";
 import { message } from 'ant-design-vue';
 const currentStep = ref(1);
 const submitted = ref(false);
@@ -404,7 +409,7 @@ const form = ref({
   phone: "",
   organization: "",
   title: "",
-  country: "",
+  country: "United Arab Emirates",
   model: "",
   useCase: "",
   timeline: "",
@@ -461,7 +466,7 @@ const submitForm = () => {
           phone: "",
           organization: "",
           title: "",
-          country: "",
+          country: "United Arab Emirates",
           model: "",
           useCase: "",
           timeline: "",
