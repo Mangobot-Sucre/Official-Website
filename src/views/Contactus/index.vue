@@ -671,11 +671,11 @@ const visitTypes = ref([
 ]);
 
 const socialList = ref([
-  { name: "LinkedIn", icon: linkedinIconActive, activeIcon: linkedinIcon, link: "https://linkedin.com" },
-  { name: "X", icon: xIcon, activeIcon: xIconActive, link: "https://x.com" },
-  { name: "Instagram", icon: instagramIcon, activeIcon: instagramIconActive,  link: "https://instagram.com" },
-  { name: "TikTok", icon: tiktokIcon, activeIcon: tiktokIconActive, link: "https://tiktok.com" },
-  { name: "YouTube", icon: youtubeIcon, activeIcon: youtubeIconActive, link: "https://youtube.com" },
+  { name: "LinkedIn", icon: linkedinIconActive, activeIcon: linkedinIcon, link: "https://www.linkedin.com/company/mangobot/" },
+  { name: "X", icon: xIcon, activeIcon: xIconActive, link: "https://x.com/mangobotrobot" },
+  { name: "Instagram", icon: instagramIcon, activeIcon: instagramIconActive,  link: "https://www.instagram.com/mangobotrobotics" },
+  { name: "TikTok", icon: tiktokIcon, activeIcon: tiktokIconActive, link: "https://www.tiktok.com/@mangobotrobotics?_t=ZS-90EqAq0VY6G&_r=1" },
+  { name: "YouTube", icon: youtubeIcon, activeIcon: youtubeIconActive, link: "https://www.youtube.com/@mangobotrobotics" },
 ]);
 
 const downloadList = ref([
