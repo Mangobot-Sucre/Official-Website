@@ -175,7 +175,7 @@ function handleClick(path) {
         color: var(--Gray-4, #bdbdbd);
 
         /* BUTTON */
-        font-family: Geist;
+        font-family: Manrope;
         font-size: var(--font-size-base, 16px);
         font-style: normal;
         font-weight: var(--font-weight-medium, 500);
@@ -188,7 +188,7 @@ function handleClick(path) {
       color: var(--Gray-4, #bdbdbd);
 
       /* BUTTON */
-      font-family: Geist;
+      font-family: Manrope;
       font-size: var(--font-size-base, 16px);
       font-style: normal;
       font-weight: var(--font-weight-medium, 500);
@@ -199,7 +199,7 @@ function handleClick(path) {
       color: var(--Gray-4, #bdbdbd);
 
       /* BUTTON */
-      font-family: Geist;
+      font-family: Manrope;
       font-size: var(--font-size-base, 16px);
       font-style: normal;
       font-weight: var(--font-weight-medium, 500);
@@ -236,7 +236,7 @@ function handleClick(path) {
           width: 160px;
           color: var(--Gray-5, #e0e0e0);
           /* BUTTON */
-          font-family: Geist;
+          font-family: Manrope;
           font-size: var(--font-size-base, 16px);
           font-style: normal;
           font-weight: var(--font-weight-medium, 500);

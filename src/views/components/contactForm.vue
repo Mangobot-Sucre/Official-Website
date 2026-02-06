@@ -564,13 +564,13 @@ function goMap() {
         font-feature-settings: "liga" off, "clig" off;
 
         /* Display 2/Bold */
-        font-family: var(--Typography-Font-Family-Primary-Font, Inter);
-        font-size: var(--Typography-Font-Size-Display-2, 14px);
+        font-family: Manrope;
+        font-size: 14px;
         font-style: normal;
         font-weight: 600;
         line-height: 115%; /* 16.1px */
         gap: 12px;
-        border-radius: var(--Sizes-Border-Radius-BR-3, 8px);
+        border-radius: 8px;
         background: #d9dbe9;
         &-icon {
           display: flex;
@@ -903,7 +903,7 @@ function goMap() {
       cursor: pointer;
 
       /* BUTTON */
-      font-family: Geist;
+      font-family: Manrope;
       font-size: var(--font-size-base, 16px);
       font-style: normal;
       font-weight: var(--font-weight-medium, 500);

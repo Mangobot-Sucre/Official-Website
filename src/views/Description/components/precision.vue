@@ -56,7 +56,7 @@ const sensors = [
     color: #0f0f0f;
 
     /* H3 */
-    font-family: Geist;
+    font-family: Manrope;
     font-size: 58px;
     font-style: normal;
     font-weight: 500;

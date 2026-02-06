@@ -98,7 +98,7 @@ function go(path){
       width: 640px;
       flex-shrink: 0;
       color: var(--Color-4, #1a1e1d);
-      font-family: Geist;
+      font-family: Manrope;
       font-size: 78px;
       font-style: normal;
       font-weight: 500;
@@ -161,7 +161,7 @@ function go(path){
           background: rgba(255, 255, 255, 0.1);
           color: var(--color-base-white, #fff);
           text-align: center;
-          font-family: Geist;
+          font-family: Manrope;
           font-size: var(--font-size-base, 16px);
           font-style: normal;
           font-weight: var(--font-weight-medium, 500);

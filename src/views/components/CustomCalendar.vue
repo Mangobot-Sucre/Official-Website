@@ -266,7 +266,7 @@ watch(
 .custom-calendar {
   width: 100%;
   max-width: 380px;
-  font-family: Manrope, sans-serif;
+  font-family: Manrope;
   position: relative;
 
   &-header {

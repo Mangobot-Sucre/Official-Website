@@ -48,7 +48,7 @@ const { anatomy } = defineProps({
     background: #ededed;
     gap: 49px;
     /* BUTTON */
-    font-family: Geist;
+    font-family: Manrope;
     font-size: var(--font-size-base, 16px);
     font-style: normal;
     font-weight: var(--font-weight-medium, 500);

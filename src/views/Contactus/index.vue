@@ -1424,7 +1424,7 @@ const downloadList = ref([
         color: var(--Colors-Neutrals-Neutral-500, #a0a3bd);
 
         /* H5 */
-        font-family: Geist;
+        font-family: Manrope;
         font-size: 32px;
         font-style: normal;
         font-weight: 500;

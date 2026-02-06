@@ -31,7 +31,7 @@ const { items } = defineProps({
     color: #0F0F0F;
 
 /* H3 */
-font-family: Geist;
+font-family: Manrope;
 font-size: 58px;
 font-style: normal;
 font-weight: 500;

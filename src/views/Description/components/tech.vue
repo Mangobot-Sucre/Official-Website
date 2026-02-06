@@ -121,7 +121,7 @@ const toggleExpand = () => {
     color: var(--Color-6, #393939);
 
     /* H5 */
-    font-family: Geist;
+    font-family: Manrope;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;

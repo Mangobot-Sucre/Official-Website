@@ -9,3 +9,7 @@
   --policy-text-color: #1A1E1D;
   --policy-section-title-color: #1A1E1D;
 }
+
+body{
+  font-family: Manrope;
+}

@@ -110,7 +110,7 @@ const arr = [
         color: var(--White, #fff);
 
         /* H5_2 */
-        font-family: Geist;
+        font-family: Manrope;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -124,7 +124,7 @@ const arr = [
         font-feature-settings: "ss02" on, "ss03" on, "ss08" on;
 
         /* H6 */
-        font-family: Geist;
+        font-family: Manrope;
         font-size: var(--font-size-xl, 20px);
         font-style: normal;
         font-weight: var(--font-weight-medium, 500);

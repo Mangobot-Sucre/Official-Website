@@ -388,7 +388,7 @@ onUnmounted(() => {
   justify-content: center;
   font-weight: 700;
   font-size: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: Manrope;
   box-shadow: 
     0 8px 20px rgba(255, 107, 157, 0.35),
     0 4px 10px rgba(0, 0, 0, 0.2);

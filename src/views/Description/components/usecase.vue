@@ -97,7 +97,7 @@ const { useCases } = defineProps({
 
   &-title {
     color: #0f0f0f;
-    font-family: Manrope, sans-serif;
+    font-family: Manrope;
     font-size: 48px;
     font-weight: 600;
     letter-spacing: -0.5px;

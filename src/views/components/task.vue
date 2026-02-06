@@ -210,7 +210,7 @@ onMounted(() => {
   text-align: center;
   font-variant-numeric: ordinal;
   font-feature-settings: "dlig" on;
-  font-family: Manrope, sans-serif;
+  font-family: Manrope;
   font-size: 72px;
   font-style: normal;
   font-weight: 600;
@@ -228,7 +228,7 @@ onMounted(() => {
   text-align: center;
   font-variant-numeric: ordinal;
   font-feature-settings: "dlig" on;
-  font-family: Manrope, sans-serif;
+  font-family: Manrope;
   font-size: 20px;
   font-style: normal;
   font-weight: 300;

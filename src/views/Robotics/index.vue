@@ -661,7 +661,7 @@ const processSteps = ref([
       color: var(--White, #fff);
 
       /* SMALL-TAG */
-      font-family: Geist;
+      font-family: Manrope;
       font-size: 14px;
       font-style: normal;
       font-weight: 400;
@@ -674,7 +674,7 @@ const processSteps = ref([
       text-align: center;
 
       /* H1 */
-      font-family: Geist;
+      font-family: Manrope;
       font-size: 100px;
       font-style: normal;
       font-weight: 500;

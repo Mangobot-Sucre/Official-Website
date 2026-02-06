@@ -723,7 +723,7 @@ const goContact = (path) => {
       left: 36px;
       color: #fff;
       text-align: center;
-      font-family: Geist;
+      font-family: Manrope;
       font-size: 199px;
       font-style: normal;
       font-weight: 500;
