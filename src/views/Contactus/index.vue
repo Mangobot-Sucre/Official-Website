@@ -580,7 +580,7 @@ const onDateSelect = (date) => {
   selectedDate.value = date;
 };
 
-const submitVisit = () => {
+const submitVisitApi = () => {
   // 检查所有必填项是否填写
   if (!visitorForm.value.fullName || !visitorForm.value.email || !visitorForm.value.phone) {
     message.error('Please fill in all required fields');
@@ -622,7 +622,7 @@ const submitVisit = () => {
         selectedTimezone.value = "Gulf Standard Time";
         visitActive.value = 1;
         visitStep.value = 1;
-      }, 3000);
+      }, 500);
     }
   }).catch(err => {
     console.error(err);
@@ -700,6 +700,26 @@ const downloadList = ref([
     iconColor: "#ff9800",
   },
 ]);
+
+
+/* ========================
+   防抖函数（通用）
+======================== */
+function debounce(fn, delay = 800) {
+  let timer = null;
+  return function (...args) {
+    if (timer) return; // 防止短时间重复触发
+    timer = setTimeout(() => {
+      timer = null;
+    }, delay);
+    fn.apply(this, args);
+  };
+}
+
+
+const submitVisit = debounce(submitVisitApi, 800);
+
+
 </script>
 
 <style lang="less" scoped>
