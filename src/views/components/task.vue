@@ -34,9 +34,9 @@
             ]"
           >
             <img :src="img" alt="task-img" />
-            <div class="task-item-play" v-if="activeIndex == index">
+            <!-- <div class="task-item-play" v-if="activeIndex == index">
               <img src="@/assets/whatsapp.png" alt="task-img" />
-            </div>
+            </div> -->
           </div>
         </el-carousel-item>
       </el-carousel>
@@ -52,12 +52,11 @@ const height = ref(0);
 const taskContainerRef = ref(null);
 const activeIndex = ref(0);
 // Import images - replace these with your actual robot images
-import img1 from "@/assets/a2-bg.png";
-import img2 from "@/assets/a2-bg.png";
-import img3 from "@/assets/a2-bg.png";
-import img4 from "@/assets/a2-bg.png";
+import img1 from "@/assets/bg1.png";
+import img2 from "@/assets/bg2.png";
+import img3 from "@/assets/bg3.png";
 
-const images = [img1, img2, img3, img4];
+const images = [img2 ,img3, img1];
 
 function change(index) {
   activeIndex.value = index;
@@ -109,6 +108,11 @@ onMounted(() => {
   position: relative;
   border-radius: 12px;
   border: 5px solid #dbdbdb;
+  &-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
   &-play {
     position: absolute;
     transform: translate(-50%, -50%);

@@ -586,7 +586,7 @@ const submitVisit = () => {
     message.error('Please fill in all required fields');
     return;
   }
-  fetch('/api/send',{
+  fetch('https://email.mangobot.org/api/send',{
     method: 'POST',
     headers : {
       'Content-Type': 'application/json',

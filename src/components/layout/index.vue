@@ -26,8 +26,8 @@
       </div>
       <!-- 悬浮展开内容 -->
       <div class="wechatApp-expand">
-        <!-- <img class="wechatApp-expand-qr" src="@/assets/qrcode.png" alt="QR Code" /> -->
-        <div class="wechatApp-expand-phone">+971 54 200 5789</div>
+        <img class="wechatApp-expand-qr" src="@/assets/qrcode.jpg" alt="QR Code" />
+        <div class="wechatApp-expand-phone">+971 50 279 6518</div>
       </div>
     </div>
     <SiteFooter />
@@ -96,8 +96,8 @@ import SiteFooter from "../footer/index.vue";
       pointer-events: none;
 
       &-qr {
-        width: 120px;
-        height: 120px;
+        width: 150px;
+        height: 150px;
         border-radius: 8px;
         object-fit: contain;
       }

@@ -347,7 +347,7 @@
           </div>
           <div class="contact-form-info-content">
             <div class="contact-form-info-label">Contact:</div>
-            <div class="contact-form-info-value">+971 54 200 5789</div>
+            <div class="contact-form-info-value">+971 50 279 6518</div>
           </div>
         </div>
         <div class="contact-form-info-item">
@@ -386,7 +386,8 @@
           </div>
         </div>
       </div>
-      <div class="contact-form-map"></div>
+      <div class="contact-form-map" @click="goMap">
+      </div>
     </div>
   </div>
 </template>
@@ -424,7 +425,7 @@ const prevStep = () => {
 };
 
 const submitForm = () => {
-  fetch('/api/send',{
+  fetch('https://email.mangobot.org/api/send',{
     method: 'POST',
     headers : {
       'Content-Type': 'application/json',
@@ -478,7 +479,9 @@ const submitForm = () => {
 };
 
 
-
+function goMap() {
+  window.open('https://maps.app.goo.gl/bZbjY1cppuPtSLk49', '_blank');
+}
 
 
 </script>
@@ -1019,8 +1022,8 @@ const submitForm = () => {
     width: 509px;
     height: 282.778px;
     margin: 25px auto 0;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.00) 66.15%, rgba(255, 255, 255, 0.63) 100%), url('@/assets/map.png') no-repeat center center;
-
+    cursor: pointer;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.00) 66.15%, rgba(255, 255, 255, 0.63) 100%), url('@/assets/map.jpg') no-repeat center center;
   }
 }
 </style>
