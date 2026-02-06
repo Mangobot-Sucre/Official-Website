@@ -1045,7 +1045,7 @@ const submitForm = debounce(realSubmit, 800);
     height: 282.778px;
     margin: 25px auto 0;
     cursor: pointer;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.00) 66.15%, rgba(255, 255, 255, 0.63) 100%), url('@/assets/map.jpg') no-repeat center center;
+    background: url('@/assets/map.jpg') 50% 50% / cover no-repeat;
   }
 }
 </style>
