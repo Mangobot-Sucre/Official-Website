@@ -5,7 +5,8 @@
         <video 
           ref="videoRef"
           :src="video.url" 
-          muted 
+          muted
+          controls
           loop
           playsinline
           @play="isPlaying = true"

@@ -9,6 +9,7 @@
           src="https://media.mangobot.org/2026020509.mp4" 
           loop 
           muted 
+          controls
           playsinline
         ></video>
     </div>
@@ -88,7 +89,7 @@ gap: 9px;
     top: -56px;
     background: url("@/assets/soul-bg.png") no-repeat center center;
     background-size: 100% 100%;
-     pointer-events: none;
+    pointer-events: none;
   }
 }
 </style>

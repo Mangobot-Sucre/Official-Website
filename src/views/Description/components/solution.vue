@@ -30,6 +30,7 @@
       <div class="solution-item-right">
         <img v-if="!item.videoSrc" :src="item.imgSrc" alt="" />
         <video 
+          controls
           v-if="item.videoSrc" 
           :ref="(el) => setVideoRef(el, item.title)"
           :src="item.videoSrc" 

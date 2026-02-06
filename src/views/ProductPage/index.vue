@@ -10,6 +10,7 @@
       </div>
       <div class="productPage-header-video" ref="videoContainerRef" @click="togglePlay">
         <video 
+          controls
           ref="videoRef"
           src="https://media.mangobot.org/2026020500.mp4" 
           muted 
