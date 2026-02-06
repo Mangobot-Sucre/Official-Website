@@ -81,6 +81,7 @@ const robotBottomItems = ref([
 ]);
 
 function go(path){
+  console.log('path')
   location.href = path
 }
 </script>
