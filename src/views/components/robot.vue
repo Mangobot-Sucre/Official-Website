@@ -68,19 +68,20 @@ const robotBottomItems = ref([
     title: "The Vibe Master",
     text: "Vigilance delivered with a presence that commands respect, not fear.",
     name: "D1 Ultra – The Sentinel",
-    img: d1,
+    img: g1,
     path : '/products/d1-ultra'
   },
   {
     title: "The Specialist",
     text: "Highly capable humanoid built for precision-driven environments.",
     name: "G1 Ultra – The Specialist",
-    img: g1,
+    img: d1,
     path : '/products/g1-ultra'
   },
 ]);
 
 function go(path){
+  console.log('path')
   location.href = path
 }
 </script>

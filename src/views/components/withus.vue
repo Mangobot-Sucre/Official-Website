@@ -31,27 +31,27 @@ const socialList = ref([
   {
     name: "LinkedIn",
     icon: linkedinIcon,
-    link: "https://linkedin.com",
+    link: "https://www.linkedin.com/company/mangobot/",
   },
   {
     name: "X",
     icon: xIcon,
-    link: "https://x.com",
+    link: "https://x.com/mangobotrobot",
   },
   {
     name: "Instagram",
     icon: instagramIcon,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/mangobotrobotics",
   },
   {
     name: "TikTok",
     icon: tiktokIcon,
-    link: "https://tiktok.com",
+    link: "https://www.tiktok.com/@mangobotrobotics?_t=ZS-90EqAq0VY6G&_r=1",
   },
   {
     name: "YouTube",
     icon: youtubeIcon,
-    link: "https://youtube.com",
+    link: "https://www.youtube.com/@mangobotrobotics",
   },
 ]);
 </script>
