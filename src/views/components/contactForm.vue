@@ -144,9 +144,14 @@
               <a-select-option value="Fashion Shows"
                 >Fashion Shows</a-select-option
               >
-              <a-select-option value="Hospitality">Hospitality</a-select-option>
-              <a-select-option value="Security">Security</a-select-option>
-              <a-select-option value="Education">Education</a-select-option>
+              <a-select-option value="Private Demonstration">Private Demonstration</a-select-option>
+              <a-select-option value="Leasing Options">Leasing Options</a-select-option>
+              <a-select-option value="Techniacal Consultation">Techniacal Consultation</a-select-option>
+              <a-select-option value="Event & Entertainment">Event & Entertainment</a-select-option>
+              <a-select-option value="Creators">Creators</a-select-option>
+              <a-select-option value="Media & Press">Media & Press</a-select-option>
+              <a-select-option value="Exploring / Not Sure Yet">Exploring / Not Sure Yet</a-select-option>
+              <a-select-option value="Other">Other</a-select-option>
             </a-select>
           </div>
         </div>
@@ -174,11 +179,11 @@
             style="width: 100%"
           >
             <a-select-option value="Conference">Conference</a-select-option>
-            <a-select-option value="Social Media">Social Media</a-select-option>
-            <a-select-option value="Search Engine"
-              >Search Engine</a-select-option
-            >
             <a-select-option value="Referral">Referral</a-select-option>
+            <a-select-option value="Web Search">Web Search</a-select-option>
+            <a-select-option value="Social Media">Social Media</a-select-option>
+            <a-select-option value="Press">Press</a-select-option>
+            <a-select-option value="Other">Other</a-select-option>
           </a-select>
         </div>
         <div class="contact-form-field contact-form-field-full">
@@ -213,9 +218,8 @@
               size="large"
               style="width: 100%"
             >
-              <a-select-option value="Using Email">Using Email</a-select-option>
-              <a-select-option value="Phone Call">Phone Call</a-select-option>
-              <a-select-option value="Video Call">Video Call</a-select-option>
+              <a-select-option value="Email">Email</a-select-option>
+              <a-select-option value="WhatsApp">WhatsApp</a-select-option>
             </a-select>
           </div>
         </div>
