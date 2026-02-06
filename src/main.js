@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
+import '@/assets/font/css2.css'
 import './style.css'
 import 'normalize.css';
 import router from './route/index.js'
