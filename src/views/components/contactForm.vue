@@ -429,7 +429,7 @@ const prevStep = () => {
   if (currentStep.value > 1) currentStep.value--;
 };
 
-const submitForm = () => {
+const realSubmit = () => {
   fetch('https://email.mangobot.org/api/send',{
     method: 'POST',
     headers : {
@@ -476,7 +476,7 @@ const submitForm = () => {
           communicationMethod: "",
         };
         currentStep.value = 1;
-      }, 3000);
+      }, 500);
     }
   }).catch(err => {
     console.error(err);
@@ -487,6 +487,23 @@ const submitForm = () => {
 function goMap() {
   window.open('https://maps.app.goo.gl/bZbjY1cppuPtSLk49', '_blank');
 }
+
+/* ========================
+   防抖函数（通用）
+======================== */
+function debounce(fn, delay = 800) {
+  let timer = null;
+  return function (...args) {
+    if (timer) return; // 防止短时间重复触发
+    timer = setTimeout(() => {
+      timer = null;
+    }, delay);
+    fn.apply(this, args);
+  };
+}
+
+
+const submitForm = debounce(realSubmit, 800);
 
 
 </script>
